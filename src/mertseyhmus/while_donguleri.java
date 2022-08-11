@@ -45,8 +45,9 @@ public class while_donguleri {
 
         do {
                 toplam += sayi %10;
-
-                sayi /=10; } while ( sayi > 10);
+                sayi /=10;
+            System.out.println("sayi :" +sayi);
+        } while ( sayi > 1);
 
         System.out.println( "sonuc!... " +toplam);
 
